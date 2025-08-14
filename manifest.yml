@@ -15,4 +15,4 @@ application:
 services:
     datakit:
         # datakitpage/datakit
-        image: docker.1ms.run/datakitpage/datakit:latest
+        image: registry.lazycat.cloud/czyt/datakitpage/datakit:a924cf0859da10c2
