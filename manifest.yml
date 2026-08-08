@@ -1,10 +1,3 @@
-name: DataKit
-package: lazycat.community.app.datakit
-version: 0.1.0
-min_os_version: 1.3.8
-description: "Modern web-based data analysis tool - Process large files locally with complete privacy"
-homepage: https://docs.datakit.page
-author: datakit
 application:
     subdomain: datakit
     background_task: true
