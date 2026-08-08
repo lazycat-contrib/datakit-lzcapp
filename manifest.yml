@@ -1,11 +1,12 @@
 application:
-    subdomain: datakit
-    background_task: true
-    public_path:
-        - /
-    routes:
-        - /=http://datakit
+  subdomain: datakit
+  background_task: true
+  public_path:
+    - /
+  routes:
+    - /=http://datakit
 services:
-    datakit:
-        # datakitpage/datakit
-        image: registry.lazycat.cloud/czyt/datakitpage/datakit:a924cf0859da10c2
+  datakit:
+    # datakitpage/datakit
+    # upstream: docker.io/datakitpage/datakit:latest@sha256:9fadbb2819b55820db08e63fe6bba9c6d7460269f5377b7246092abf4af13e7f
+    image: registry.lazycat.cloud/czyt/datakitpage/datakit:66a468512abb4ba3
